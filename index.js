@@ -14,6 +14,8 @@ function divide(a,b) {
   return a/b;
 }
 
+var n= 6
+
 function inc(n){
  return n++;
 }
