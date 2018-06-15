@@ -1,12 +1,39 @@
 function add(){
-  return 1+2
+  return a+b;
 }
-function subtract(){
-  return 2-1
+
+function subtract(a,b){
+  return a-b;
 }
-function divide() {
-  return 2/1
+
+function multiply(a,b){
+  return a*b;
 }
-function multiply(){
-  return 3*2
+
+function divide(a,b) {
+  return a/b;
+}
+
+function inc(n){
+ return n++;
+}
+
+function dec(n){
+  return n--;
+}
+
+function makeInt() {
+  parseInt('2', 10)
+}
+
+function makeInt() {
+  parseInt ('2.2222', 10)
+}
+
+function makeInt() {
+  parseInt('nonsense!', 10)
+}
+
+function preserveDecimal() {
+  parseFloat('80.123999')
 }
